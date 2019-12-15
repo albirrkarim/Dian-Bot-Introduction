@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
 
-    <title>reveal.js – The HTML Presentation Framework</title>
+    <title>Dian Bot Introduction</title>
 
-    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-    <meta name="author" content="Hakim El Hattab">
+    <meta name="description" content="AI Tour Guide pada aplikasi Dinus Virtual Tour">
+    <meta name="author" content="Al Birr Karim Susanto">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -16,10 +16,12 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="css/theme/white.css" id="theme">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/monokai.css">
+
+    <script src="js/typeriter.js"></script>
 
     <!-- Printing and PDF exports -->
     <script>
@@ -42,11 +44,28 @@
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
             <section>
-                <h1>Reveal.js</h1>
-                <h3>The HTML Presentation Framework</h3>
-                <p>
-                    <small>Created by <a href="http://hakim.se">Hakim El Hattab</a> and <a href="https://github.com/hakimel/reveal.js/graphs/contributors">contributors</a></small>
-                </p>
+                <h3 id="akuDian">Aku Dian</h3>
+                
+                <script>
+                    var app = document.getElementById('akuDian');
+
+                    var typewriter = new Typewriter(app, {
+                        loop: false
+                    });
+
+                    typewriter.typeString('Aku dian')
+                        .pauseFor(2500)
+                        .deleteAll()
+                        .typeString('Aku adalah Bot')
+                        .pauseFor(2500)
+                        .deleteAll()
+                        .typeString('pemandu tour pada aplikasi dinus virtual tour')
+                        .pauseFor(2500)
+                        .deleteChars(7)
+                        .typeString('<strong>altered!</strong>')
+                        .pauseFor(2500)
+                        .start();
+                </script>
             </section>
 
             <section>
