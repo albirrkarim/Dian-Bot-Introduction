@@ -62,12 +62,12 @@
             <section>
                 <section style="height:400px">
                     <div>
-                        <img width="400" height="200" src="img/Picture53.png">
-                        <br>
+                        <!-- <img width="400" height="200" src="img/Picture53.png"> -->
+                        <!-- <br> -->
                         <span id="text2"></span>
                     </div>
                 </section>
-                <section>
+                <section data-background-color="#2e86de">
                     <h2>Android</h2>
                     <p>Smartphone Android Pie 9.0</p>
                     <img width="250" height="450" src="img/Picture2.png">
@@ -76,19 +76,19 @@
                     <img width="250" height="450" src="img/Picture5.png">
 
                 </section>
-                <section class="d-flex justify-content-center"  data-background-image="img/Picture1.png" data-background-size="80%">
+                <section class="d-flex justify-content-center" data-background-color="#2e86de" data-background-image="img/Picture1.png" data-background-size="80%">
                     <div class="justify-content-center blur">
                         <h1>Linux</h1>
                     </div>
                 </section>
 
-                <section class="d-flex justify-content-center" data-background-image="img/Picture7.png" data-background-size="80%">
+                <section class="d-flex justify-content-center" data-background-color="#2e86de" data-background-image="img/Picture7.png" data-background-size="80%">
                     <div class="justify-content-center blur">
                         <h1>Windows 10</h1>
                     </div>
                 </section>
 
-                <section class="d-flex justify-content-center" data-background-image="img/Picture9.png" data-background-size="70%">
+                <section class="d-flex justify-content-center" data-background-color="#2e86de" data-background-image="img/Picture9.png" data-background-size="70%">
                     <div class="justify-content-center blur">
                         <h1>Mac OS</h1>
                     </div>
@@ -156,13 +156,72 @@
             </section>
 
             <!-- 10 Dian Bot  -->
-            <section>
-              
-                <h2 id="text10" >Dian Bot</h2>
+            <section class="d-flex justify-content-center" data-background-color="#000000" data-background-video="video/dian intro.mp4" data-background-video-loop data-background-size="contain">
+                <div class="justify-content-center blur">
+                    <h2 id="text10"></h2>
+                </div>
             </section>
 
-            <!-- 11 Kontak -->
+
+            <!-- 11 Speech Recognition  -->
+            <section class="d-flex justify-content-center" data-background-color="#000000" data-background-video="video/dian.mp4" data-background-video-loop data-background-size="contain">
+                <div class="text-left row" style="width:100%;height:300px">
+                    <div class=" col">
+                        <h3 class="text-white" id="text11"></h3>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- 12 Mengantar pengguna -->
+            <section class="d-flex justify-content-center" data-background-color="#000000" data-background-video="video/Dian - Lokasi.mp4" data-background-video-loop data-background-size="contain">
+
+                <h2 id="text12"></h2>
+            </section>
+
+            <!-- 13 Memberi informasi tentang jurusan dan fakultas di udinus-->
+            <section class="d-flex justify-content-center" data-background-color="#000000" data-background-video="video/Dian - Jurusan dan fakultas.mp4" data-background-video-loop data-background-size="contain">
+                <div class="justify-content-center blur" style="margin-top: 300px">
+                    <h2 id="text13"></h2>
+                </div>
+            </section>
+
+            <!-- 14 Memberi informasi tentang visi dan misi udinus -->
+            <section class="d-flex justify-content-center" data-background-video="video/Dian - visi dan misi.mp4" data-background-color="#000000"  data-background-video-loop data-background-size="contain">
+    
+                <h2 id="text14"></h2>
+            </section>
+
+            <!-- 15 Memberi pengertian tentang istilah-istilah di udinus -->
+            <section class="d-flex justify-content-center" data-background-video="video/Dian - Istilah istilah.mp4" data-background-color="#000000"  data-background-video-loop data-background-size="contain">
+
+                <h2 id="text15"></h2>
+            </section>
+
+            <!-- 16 Menyanyikan Musik Nasional & Hymne Udinus -->
+            <section class="d-flex justify-content-center" data-background-video="video/Dian - Musik.mp4" data-background-color="#000000"  data-background-video-loop data-background-size="contain">
+
+                <h2 id="text16"></h2>
+            </section>
+
+            <!-- 17 Memberi prediksi kata -->
+            <section class="d-flex justify-content-center" data-background-video="video/Dian - Prediksi.mp4" data-background-color="#000000"  data-background-video-loop data-background-size="contain">
+                <h2 id="text17"></h2>
+            </section>
+
+
+            <!-- 18 Performa -->
             <section>
+                <section style="height:400px">
+                    <h2 id="text18">
+                    </h2>
+                </section>
                 <section>
                     <h2>Lighthouse</h2>
                     <img src="img/Picture33.png" alt="" width="700px" srcset="">
@@ -182,7 +241,7 @@
                 </section>
             </section>
 
-            <!-- 12 Kontak -->
+            <!-- 19 Kontak -->
             <section>
                 <h3>
                     Al Birr Karim Susanto
@@ -195,7 +254,7 @@
                 <p>0852-1030-3085</p>
             </section>
 
-            <!-- 13 Selesai/ -->
+            <!-- 20 Selesai/ -->
             <section>
                 <img src="img/Picture52.png" alt="" width="30%" height="30%">
                 <h2 class="tulisan-biru">https://tour.dinus.ac.id</h2>
@@ -261,7 +320,8 @@
             var state = Reveal.getState();
             console.log(state.indexh);
             if (state.indexh == 1) {
-                var app = document.getElementById('text1');
+
+                var app = document.getElementById('text' + state.indexh);
 
                 var typewriter = new Typewriter(app, {
                     loop: false
@@ -277,7 +337,8 @@
                     .pauseFor(2500)
                     .start();
             } else if (state.indexh == 2) {
-                var app = document.getElementById('text2');
+                /* Progressive Web App */
+                var app = document.getElementById('text' + state.indexh);
 
                 var typewriter = new Typewriter(app, {
                     loop: false
@@ -288,22 +349,126 @@
                     .typeString('<br><p class="d-inline">Website yang bisa di install layaknya aplikasi native</p>')
                     .pauseFor(2000)
                     .start();
-            }
-            else if (state.indexh == 10 ) {
-                var app = document.getElementById('text10');
+            } else if (state.indexh == 10) {
+                /* Dian  */
+                var app = document.getElementById('text' + state.indexh);
 
                 var typewriter = new Typewriter(app, {
                     loop: false
                 });
 
-                typewriter.typeString('Hallo')
+                typewriter.typeString('Halo')
                     .pauseFor(1000)
-                    .typeString('Kembali lagi dengan ku, dian')
+                    .deleteAll()
+                    .typeString('Kembali lagi dengan ku, ')
+                    .pauseFor(500)
+                    .typeString('dian')
                     .pauseFor(1000)
-                    .typeString('Kamu bisa tanya aku seperti ...')
-                    .pauseFor(2000)
+                    .start();
+            } else if (state.indexh == 11) {
+                /* Speech Recognition */
+                var app = document.getElementById('text' + state.indexh);
+
+                var typewriter = new Typewriter(app, {
+                    loop: false
+                });
+
+                typewriter.typeString('Kamu bisa bertanya kepadaku')
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString('dengan melalui tulisan')
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString('atau dengan semudah berbicara')
+                    .pauseFor(1000)
+                    .start();
+            } else if (state.indexh == 12) {
+                /* Mengantar pengguna */
+                var app = document.getElementById('text' + state.indexh);
+
+                var typewriter = new Typewriter(app, {
+                    loop: false
+                });
+
+                typewriter.typeString('Sebutkan ruangannya, nanti aku antar')
+                    .pauseFor(1000)
+                    .start();
+            } else if (state.indexh == 13) {
+                /* Memberi informasi tentang jurusan dan fakultas di udinus */
+                var app = document.getElementById('text' + state.indexh);
+
+                var typewriter = new Typewriter(app, {
+                    loop: false
+                });
+                typewriter.typeString('Mau kuliah di udinus ?,')
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString('Aku bisa memberimu info tentang jurusan dan fakultas di udinus')
+                    .pauseFor(1000)
+                    .start();
+            } else if (state.indexh == 14) {
+                /* Memberi informasi tentang visi dan misi udinus  */
+                var app = document.getElementById('text' + state.indexh);
+
+                var typewriter = new Typewriter(app, {
+                    loop: false
+                });
+
+                typewriter.typeString('aku tahu visi misi udinus')
+                    .pauseFor(1000)
+                    .start();
+            } else if (state.indexh == 15) {
+                /* Memberi pengertian tentang istilah-istilah di udinus */
+                var app = document.getElementById('text' + state.indexh);
+
+                var typewriter = new Typewriter(app, {
+                    loop: false
+                });
+
+                typewriter.typeString('Ada sesuatu istilah yang tidak kamu ketahui ?')
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString('Coba tanya ke aku ...')
+                    .pauseFor(1000)
+                    .start();
+            } else if (state.indexh == 16) {
+                /* Menyanyikan Musik Nasional & Hymne Udinus */
+                var app = document.getElementById('text' + state.indexh);
+
+                var typewriter = new Typewriter(app, {
+                    loop: false
+                });
+
+                typewriter.typeString('Aku juga bisa nyanyi lho ...')
+                    .pauseFor(1000)
+                    .start();
+            } else if (state.indexh == 17) {
+                /* Memberi prediksi kata */
+                var app = document.getElementById('text' + state.indexh);
+
+                var typewriter = new Typewriter(app, {
+                    loop: false
+                });
+
+                typewriter.typeString('Dalam kolom chatting aku bisa memberi mu prediksi kata')
+                    .pauseFor(300)
+                    .deleteAll()
+                    .typeString('yang juga banyak di tanyakan penguna lain')
+                    .pauseFor(1000)
+                    .start();
+            } else if (state.indexh == 18) {
+                /* Performa */
+                var app = document.getElementById('text' + state.indexh);
+
+                var typewriter = new Typewriter(app, {
+                    loop: false
+                });
+
+                typewriter.typeString(' Tidak hanya memiliki tampilan yang bagus tapi juga performa bagus')
+                    .pauseFor(1000)
                     .start();
             }
+
         });
     </script>
 
