@@ -20,6 +20,10 @@
   color: var(--main-orange);
 }
 
+.tulisan-gray{
+  color: #1b1b1b;
+}
+
 
 .blur{
   /* width: 30rem; */
@@ -241,7 +245,7 @@ body {
   max-height: 400px;
   word-wrap: normal; }
 
-.reveal table {
+/* .reveal table {
   margin: auto;
   border-collapse: collapse;
   border-spacing: 0; }
@@ -265,7 +269,7 @@ body {
 
 .reveal table tbody tr:last-child th,
 .reveal table tbody tr:last-child td {
-  border-bottom: none; }
+  border-bottom: none; } */
 
 .reveal sup {
   vertical-align: super;

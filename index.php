@@ -183,14 +183,14 @@
             <section class="d-flex justify-content-center" data-background-color="#000000" data-background-video="video/Dian - Lokasi.mp4" data-background-video-loop data-background-size="contain">
                 <div style="width:100%;height:300px">
                     <div class="text-left row" style="height:100px">
-                        <div class="col blur-black-1 " style="max-width:400px">
+                        <div class="col">
+
+                        </div>
+                        <div class="col">
+
+                        </div>
+                        <div class="col blur-black-1">
                             <h3 class="text-white" id="text12"></h3>
-                        </div>
-                        <div class="col">
-
-                        </div>
-                        <div class="col">
-
                         </div>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
             <section class="d-flex justify-content-center" data-background-video="video/Dian - visi dan misi.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
                 <div style="width:100%;height:300px">
                     <div class="text-left row" style="height:100px">
-                        <div class="col blur-black-1 " style="max-width:400px">
+                        <div class="col blur-black-1">
                             <h3 class="text-white" id="text14"></h3>
                         </div>
                         <div class="col">
@@ -224,14 +224,15 @@
             <section class="d-flex justify-content-center" data-background-video="video/Dian - Istilah istilah.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
                 <div style="width:100%;height:300px">
                     <div class="text-left row" style="height:100px">
+                        
+                        <div class="col">
+
+                        </div>
+                        <div class="col">
+
+                        </div>
                         <div class="col blur-black-1 " style="max-width:400px">
                             <h3 class="text-white" id="text15"></h3>
-                        </div>
-                        <div class="col">
-
-                        </div>
-                        <div class="col">
-
                         </div>
                     </div>
                 </div>
@@ -258,14 +259,15 @@
             <section class="d-flex justify-content-center" data-background-video="video/Dian - Prediksi.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
                 <div style="width:100%;height:300px">
                     <div class="text-left row" style="height:100px">
+                        
+                        <div class="col">
+
+                        </div>
+                        <div class="col">
+
+                        </div>
                         <div class="col blur-black-1 " style="max-width:400px">
                             <h3 class="text-white" id="text17"></h3>
-                        </div>
-                        <div class="col">
-
-                        </div>
-                        <div class="col">
-
                         </div>
                     </div>
                 </div>
@@ -274,40 +276,109 @@
 
             <!-- 18 Performa -->
             <section>
-                <section style="height:400px">
+                <section data-background-color="#ffffff" style="height:400px">
                     <h2 id="text18">
                     </h2>
                 </section>
                 <section>
-                    <h2>Lighthouse</h2>
+                    <h2 class="text-white">Lighthouse</h2>
                     <img src="img/Picture33.png" alt="" width="700px" srcset="">
                 </section>
                 <section>
-                    <h2>Gt Metrix</h2>
+                    <h2 class="text-white">Gt Metrix</h2>
                     <img src="img/Picture34.png" alt="" width="700px" srcset="">
                 </section>
                 <section>
-                    <h2>Pingdom</h2>
+                    <h2 class="text-white">Pingdom</h2>
                     <img src="img/Picture35.png" alt="" width="700px" srcset="">
                 </section>
 
                 <section>
-                    <h2>WebpageTest</h2>
+                    <h2 class="text-white">WebpageTest</h2>
                     <img src="img/Picture36.png" alt="" width="700px" srcset="">
                 </section>
             </section>
 
             <!-- 19 Kontak -->
-            <section>
-                <h3>
-                    Al Birr Karim Susanto
-                </h3>
-                <p>0888-0192-9423</p>
-                <br>
-                <h3>
-                    Yumnanda Abid Saputra
-                </h3>
-                <p>0852-1030-3085</p>
+            <section data-background-color="#ffffff">
+                <div class="row">
+                    <div class="col">
+                        <h3>
+                            Al Birr Karim Susanto
+                        </h3>
+
+                        <table class="table table-borderless">
+                            <tr>
+                                <td>
+                                    <img class="p-0" src="img/logo/github.png" width="50" height="50" alt="Github">
+
+                                </td>
+                                <td>
+                                    github.com/albirrkarim
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img class="p-0" src="img/logo/gmail.png" width="50" height="50" alt="Gmail">
+
+                                </td>
+                                <td>
+                                    albirkarim1@gmail.com
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img class="p-0" src="img/logo/wa.png" width="50" height="50" alt="Whatsapp">
+
+                                </td>
+                                <td>
+                                    0888 0192 9423
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <div class="col">
+                        <h3>
+                            Yumnanda Abid Saputra
+                        </h3>
+                        <table class="table table-borderless">
+                            <tr>
+                                <td class="p-0">
+                                    <img src="img/logo/github.png" width="50" height="50" alt="Github">
+
+                                </td>
+                                <td>
+                                    github.com/yumnanda
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="p-0">
+                                    <img src="img/logo/gmail.png" width="50" height="50" alt="Gmail">
+                                </td>
+                                <td>
+                                    yumnandaabsa@gmail.com
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="p-0">
+                                    <img src="img/logo/wa.png" width="50" height="50" alt="Whatsapp">
+                                </td>
+                                <td>
+                                    0852 1030 3085
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
             </section>
 
             <!-- 20 Selesai/ -->
