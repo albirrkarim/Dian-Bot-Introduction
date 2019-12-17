@@ -33,6 +33,60 @@
   backdrop-filter: blur(5px);
 }
 
+
+.blur-1{
+  padding-left : 1em;
+  padding-right: 1em;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.418);
+  
+  backdrop-filter: blur(10px);
+}
+
+.blur-2{
+  padding-left : 1em;
+  padding-right: 1em;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.671);
+  
+  backdrop-filter: blur(20px);
+}
+
+.blur-black{
+  /* width: 30rem; */
+  /* height: 2.5em; */
+  padding-left : 1em;
+  padding-right: 1em;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.15);
+  
+  backdrop-filter: blur(5px);
+}
+
+
+.blur-black-1{
+  padding-left : 1em;
+  padding-right: 1em;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.418);
+  
+  backdrop-filter: blur(10px);
+}
+
+.blur-black-2{
+  padding-left : 1em;
+  padding-right: 1em;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.671);
+  
+  backdrop-filter: blur(20px);
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/

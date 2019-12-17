@@ -157,7 +157,7 @@
 
             <!-- 10 Dian Bot  -->
             <section class="d-flex justify-content-center" data-background-color="#000000" data-background-video="video/dian intro.mp4" data-background-video-loop data-background-size="contain">
-                <div class="justify-content-center blur">
+                <div class="justify-content-center blur-1">
                     <h2 id="text10"></h2>
                 </div>
             </section>
@@ -181,38 +181,84 @@
 
             <!-- 12 Mengantar pengguna -->
             <section class="d-flex justify-content-center" data-background-color="#000000" data-background-video="video/Dian - Lokasi.mp4" data-background-video-loop data-background-size="contain">
+                <div class="text-left row" style="width:100%;height:300px">
+                    <div class="col blur-black-1 " style="max-width:400px">
+                        <h3 class="text-white" id="text12"></h3>
+                    </div>
+                    <div class="col">
 
-                <h2 id="text12"></h2>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
             </section>
 
             <!-- 13 Memberi informasi tentang jurusan dan fakultas di udinus-->
             <section class="d-flex justify-content-center" data-background-color="#000000" data-background-video="video/Dian - Jurusan dan fakultas.mp4" data-background-video-loop data-background-size="contain">
-                <div class="justify-content-center blur" style="margin-top: 300px">
+                <div class="justify-content-center blur-1" style="margin-top: 300px">
                     <h2 id="text13"></h2>
                 </div>
             </section>
 
             <!-- 14 Memberi informasi tentang visi dan misi udinus -->
-            <section class="d-flex justify-content-center" data-background-video="video/Dian - visi dan misi.mp4" data-background-color="#000000"  data-background-video-loop data-background-size="contain">
-    
-                <h2 id="text14"></h2>
+            <section class="d-flex justify-content-center" data-background-video="video/Dian - visi dan misi.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
+                <div class="text-left row" style="width:100%;height:150px">
+                    <div class="col blur-black-1 " style="max-width:400px">
+                        <h3 class="text-white" id="text14"></h3>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
             </section>
 
             <!-- 15 Memberi pengertian tentang istilah-istilah di udinus -->
-            <section class="d-flex justify-content-center" data-background-video="video/Dian - Istilah istilah.mp4" data-background-color="#000000"  data-background-video-loop data-background-size="contain">
+            <section class="d-flex justify-content-center" data-background-video="video/Dian - Istilah istilah.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
+                <div class="text-left row" style="width:100%;height:300px">
+                    <div class="col blur-black-1 " style="max-width:400px">
+                        <h3 class="text-white" id="text15"></h3>
+                    </div>
+                    <div class="col">
 
-                <h2 id="text15"></h2>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
             </section>
 
             <!-- 16 Menyanyikan Musik Nasional & Hymne Udinus -->
-            <section class="d-flex justify-content-center" data-background-video="video/Dian - Musik.mp4" data-background-color="#000000"  data-background-video-loop data-background-size="contain">
+            <section class="d-flex justify-content-center" data-background-video="video/Dian - Musik.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
+                <div class="text-left row" style="width:100%;height:150px">
+                    <div class="col blur-black-1 " style="max-width:400px">
+                        <h3 class="text-white" id="text16"></h3>
+                    </div>
+                    <div class="col">
 
-                <h2 id="text16"></h2>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
             </section>
 
             <!-- 17 Memberi prediksi kata -->
-            <section class="d-flex justify-content-center" data-background-video="video/Dian - Prediksi.mp4" data-background-color="#000000"  data-background-video-loop data-background-size="contain">
-                <h2 id="text17"></h2>
+            <section class="d-flex justify-content-center" data-background-video="video/Dian - Prediksi.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
+                <div class="text-left row" style="width:100%;height:150px">
+                    <div class="col blur-black-1 " style="max-width:400px">
+                        <h3 class="text-white" id="text17"></h3>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
             </section>
 
 
