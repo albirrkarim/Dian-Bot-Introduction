@@ -42,7 +42,7 @@
 		<![endif]-->
 </head>
 
-<body>
+<body style="background-color: black">
     <div class="reveal">
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
@@ -52,7 +52,7 @@
             </section>
 
             <!-- 1 Perkenalan Dian -->
-            <section>
+            <section data-background-color="#ffffff">
                 <div style="height:200px">
                     <h2 id="text1"></h2>
                 </div>
@@ -60,7 +60,7 @@
 
             <!-- 2 Progressive Web App -->
             <section>
-                <section style="height:400px">
+                <section data-background-color="#ffffff" style="height:400px">
                     <div>
                         <!-- <img width="400" height="200" src="img/Picture53.png"> -->
                         <!-- <br> -->
@@ -137,12 +137,12 @@
                         <h2>Virtual Reality</h2>
                     </div>
                 </section>
-                <section>
+                <section data-background-color="#2e86de">
                     <h2>Menu Image</h2>
                     <img src="img/Picture29.png" alt="" width="800" height="400" srcset="">
                 </section>
 
-                <section>
+                <section data-background-color="#2e86de">
                     <h2>Menu Info</h2>
                     <img src="img/Picture30.png" alt="" width="800" height="400" srcset="">
                 </section>
@@ -181,15 +181,17 @@
 
             <!-- 12 Mengantar pengguna -->
             <section class="d-flex justify-content-center" data-background-color="#000000" data-background-video="video/Dian - Lokasi.mp4" data-background-video-loop data-background-size="contain">
-                <div class="text-left row" style="width:100%;height:300px">
-                    <div class="col blur-black-1 " style="max-width:400px">
-                        <h3 class="text-white" id="text12"></h3>
-                    </div>
-                    <div class="col">
+                <div style="width:100%;height:300px">
+                    <div class="text-left row" style="height:100px">
+                        <div class="col blur-black-1 " style="max-width:400px">
+                            <h3 class="text-white" id="text12"></h3>
+                        </div>
+                        <div class="col">
 
-                    </div>
-                    <div class="col">
+                        </div>
+                        <div class="col">
 
+                        </div>
                     </div>
                 </div>
             </section>
@@ -203,60 +205,68 @@
 
             <!-- 14 Memberi informasi tentang visi dan misi udinus -->
             <section class="d-flex justify-content-center" data-background-video="video/Dian - visi dan misi.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
-                <div class="text-left row" style="width:100%;height:150px">
-                    <div class="col blur-black-1 " style="max-width:400px">
-                        <h3 class="text-white" id="text14"></h3>
-                    </div>
-                    <div class="col">
+                <div style="width:100%;height:300px">
+                    <div class="text-left row" style="height:100px">
+                        <div class="col blur-black-1 " style="max-width:400px">
+                            <h3 class="text-white" id="text14"></h3>
+                        </div>
+                        <div class="col">
 
-                    </div>
-                    <div class="col">
+                        </div>
+                        <div class="col">
 
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- 15 Memberi pengertian tentang istilah-istilah di udinus -->
             <section class="d-flex justify-content-center" data-background-video="video/Dian - Istilah istilah.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
-                <div class="text-left row" style="width:100%;height:300px">
-                    <div class="col blur-black-1 " style="max-width:400px">
-                        <h3 class="text-white" id="text15"></h3>
-                    </div>
-                    <div class="col">
+                <div style="width:100%;height:300px">
+                    <div class="text-left row" style="height:100px">
+                        <div class="col blur-black-1 " style="max-width:400px">
+                            <h3 class="text-white" id="text15"></h3>
+                        </div>
+                        <div class="col">
 
-                    </div>
-                    <div class="col">
+                        </div>
+                        <div class="col">
 
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- 16 Menyanyikan Musik Nasional & Hymne Udinus -->
             <section class="d-flex justify-content-center" data-background-video="video/Dian - Musik.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
-                <div class="text-left row" style="width:100%;height:150px">
-                    <div class="col blur-black-1 " style="max-width:400px">
-                        <h3 class="text-white" id="text16"></h3>
-                    </div>
-                    <div class="col">
+                <div style="width:100%;height:300px">
+                    <div class="text-left row" style="height:100px">
+                        <div class="col blur-black-1" style="max-width:400px">
+                            <h3 class="text-white" id="text16"></h3>
+                        </div>
+                        <div class="col">
 
-                    </div>
-                    <div class="col">
+                        </div>
+                        <div class="col">
 
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- 17 Memberi prediksi kata -->
             <section class="d-flex justify-content-center" data-background-video="video/Dian - Prediksi.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
-                <div class="text-left row" style="width:100%;height:150px">
-                    <div class="col blur-black-1 " style="max-width:400px">
-                        <h3 class="text-white" id="text17"></h3>
-                    </div>
-                    <div class="col">
+                <div style="width:100%;height:300px">
+                    <div class="text-left row" style="height:100px">
+                        <div class="col blur-black-1 " style="max-width:400px">
+                            <h3 class="text-white" id="text17"></h3>
+                        </div>
+                        <div class="col">
 
-                    </div>
-                    <div class="col">
+                        </div>
+                        <div class="col">
 
+                        </div>
                     </div>
                 </div>
             </section>
@@ -364,7 +374,7 @@
         Reveal.addEventListener('slidechanged', function(event) {
             // event.previousSlide, event.currentSlide, event.indexh, event.indexv
             var state = Reveal.getState();
-            console.log(state.indexh);
+            // console.log(state.indexh);
             if (state.indexh == 1) {
 
                 var app = document.getElementById('text' + state.indexh);
@@ -446,7 +456,7 @@
                 var typewriter = new Typewriter(app, {
                     loop: false
                 });
-                typewriter.typeString('Mau kuliah di udinus ?,')
+                typewriter.typeString('Mau kuliah di udinus ?')
                     .pauseFor(1000)
                     .deleteAll()
                     .typeString('Aku bisa memberimu info tentang jurusan dan fakultas di udinus')
@@ -474,7 +484,7 @@
                 typewriter.typeString('Ada sesuatu istilah yang tidak kamu ketahui ?')
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString('Coba tanya ke aku ...')
+                    .typeString('Coba tanyakan padaku ...')
                     .pauseFor(1000)
                     .start();
             } else if (state.indexh == 16) {
