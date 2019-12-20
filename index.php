@@ -39,7 +39,19 @@
 
     <!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
+        <![endif]-->
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/service-worker.js', { scope: '/' }).then(function(registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
 </head>
 
 <body style="background-color: black">
@@ -224,7 +236,7 @@
             <section class="d-flex justify-content-center" data-background-video="video/Dian - Istilah istilah.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
                 <div style="width:100%;height:300px">
                     <div class="text-left row" style="height:100px">
-                        
+
                         <div class="col">
 
                         </div>
@@ -259,7 +271,7 @@
             <section class="d-flex justify-content-center" data-background-video="video/Dian - Prediksi.mp4" data-background-color="#000000" data-background-video-loop data-background-size="contain">
                 <div style="width:100%;height:300px">
                     <div class="text-left row" style="height:100px">
-                        
+
                         <div class="col">
 
                         </div>
